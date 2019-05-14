@@ -1,0 +1,31 @@
+1) User story
+ +User able to post a text (e.g. code snippet) to a dummy data store
+  -Backend generate a url based on the code snippet
+ +User can go to valid URL and see corresponding code snippet
+
+2) Scope
+ +POST /gist
+ +GET /gist/{url param}
+
+3) Fundamental Components/Key Functionality
+ +Post text snippet
+ +Store text snippet
+ +Generate encoded URL based off of text snippet (or randomly generated)
+ +Be able to retrieve text snippet from URL
+
+4) Tech??
+ +html/jquery + ajax/fetch on the front
+ +node/express on the backend
+ +mongodb???
+
+5) Todos
+ +File structure x
+ +NPM init/install dependencies x 
+ +Hello world (boiler plate) x 
+ +Implement post /gist route w/ simple form on the front encoded x
+  -local storage/object server-side x
+ +Successfully store ONE text snippet x
+ +Send url to front end ??
+ +Implement get route...successfully display ONE seeded text snippet x 
+ +layer in dynamic aspect x
+ 
